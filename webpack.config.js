@@ -31,7 +31,7 @@ module.exports = {
 			//Imagenes
 			{
 				test: /\.(jpe?g|png|gif|svg|webp)$/i,
-				type: 'asset',
+				use: ['file-loader?name=assets/[name].[ext]', 'image-webpack-loader'],
 			},
 			//Fuentes (letras)
 			{
