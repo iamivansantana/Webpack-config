@@ -4,3 +4,14 @@ html {
 	font-size: 16px;
 	background-image: url('assets/E8E-PtUXMAckyOo.jpeg');
 }
+a {
+	color: rgb(0, 247, 255);
+	font-weight: bold;
+	background-color: slategray;
+	padding: 1rem;
+}
+.menu {
+	margin: 1rem auto;
+	display: flex;
+	justify-content: space-evenly;
+}
